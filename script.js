@@ -1,7 +1,8 @@
 // Exercise 1: Applying Array.prototype.map()
 // Use `.map()` to iterate over the following array
 // Create a new array where each value is multiplied by 2 and log the new array:
-// const nums = [13, 87, 2, 89, 12, 4, 90, 63];
+
+// const nums = [ 13, 87, 2, 89, 12, 4, 90, 63 ];
 // const doubleNums = nums.map(num => {
 //     return num * 2;
 // })
@@ -11,8 +12,8 @@
 // Exercise 2: Array destructuring
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
-// const [firstPizzaTopping, secondPizzaTopping] = pizzaToppings;
+// const pizzaToppings = [ 'Pineapple', 'Olives', 'Anchovies' ];
+// const [ firstPizzaTopping, secondPizzaTopping ] = pizzaToppings;
 
 // console.log(firstPizzaTopping);
 // console.log(secondPizzaTopping);
@@ -32,7 +33,21 @@
 // Exercise 4: Applying the spread operator on arrays
 // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
 
-const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
-const controversialPizzaToppings = [...pizzaToppings];
+// const pizzaToppings = [ 'Pineapple', 'Olives', 'Anchovies' ];
+// const controversialPizzaToppings = [ ...pizzaToppings ];
 
-console.log(controversialPizzaToppings);
+// console.log(controversialPizzaToppings);
+
+// Exercise 5: Applying the spread operator on objects
+// Duplicate the following object and spread its values into a new variable `myCar`.
+// Change the `model` property of `myCar` to 'q7'. Log both objects.
+
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+//   };
+// const myCar = { ...car };
+// myCar.model = 'q7';
+
+// console.log(car);
+// console.log(myCar);
