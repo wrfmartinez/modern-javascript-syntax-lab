@@ -72,8 +72,42 @@
 // 2. `white`
 // The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
 
-const sentence = (noun = 'cat', adjective = 'white') => {
-    console.log(`The ${noun} is ${adjective}.`);
-}
-sentence();
-sentence('dog', 'furry');
+// const sentence = (noun = 'cat', adjective = 'white') => {
+//     console.log(`The ${noun} is ${adjective}.`);
+// }
+// sentence();
+// sentence('dog', 'furry');
+
+// Exercise 9: The ternary operator
+// Convert the following `if...else` statement in to a ternary:
+
+// let pizza = 'tasty';
+
+// // if (pizza === 'tasty') {
+// //   console.log('yum');
+// // } else {
+// //   console.log('yuck');
+// // }
+
+// pizza === 'tasty' ? console.log('yum') : console.log('yuck');
+
+// Exercise 10: Boolean gates
+// Simulated language configuration (change this variable to test)
+const localLangConfig = null; // Change to 'es', 'fr', etc., or keep it null
+
+// Create a variable called LANG
+// Assign LANG the value of localLangConfig or 'en' as a default
+const LANG = localLangConfig || 'en';
+
+// Log the result
+console.log('Language setting:', LANG);
+
+// Simulated user theme preference (change this variable to test)
+const userSavedTheme = 'dark'; // Change to 'dark', 'contrast', etc., or keep it null
+
+// Create a variable called USER_THEME
+// Assign USER_THEME the value of userSavedTheme or 'light' as a default
+const USER_THEME = userSavedTheme || 'light';
+
+// Log the result
+console.log('User theme setting:', USER_THEME);
