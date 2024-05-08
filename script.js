@@ -57,8 +57,23 @@
 // Define a variable named propertyName and assign a string to it (like a username, age, or email). 
 // Use propertyName as a dynamic key in userProfile, assigning a relevant value.
 
-const propertyName = 'email';
-const userProfile = {
-    [propertyName]: 'test@email.com', 
+// const propertyName = 'email';
+// const userProfile = {
+//     [propertyName]: 'test@email.com', 
+// }
+// console.log(userProfile);
+
+// Exercise 7: Import and export
+// see exportingFile.js and importingFile.js
+
+//Exercise 8: Default parameters
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+// 1. `cat`
+// 2. `white`
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+const sentence = (noun = 'cat', adjective = 'white') => {
+    console.log(`The ${noun} is ${adjective}.`);
 }
-console.log(userProfile);
+sentence();
+sentence('dog', 'furry');
